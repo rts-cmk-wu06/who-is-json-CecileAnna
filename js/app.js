@@ -1,39 +1,49 @@
-const webdevClass = {
-    "class": "WU06",
-    "school": "RTS",
-    "teacher": "Troels",
-    "classMembers": [{
-            "firstName": "Vagn",
-            "lastName": "Sej",
-            "age": 70,
-            "hairColor": "grey",
-            "shoeSize": 45,
-        },
-        {
-            "firstName": "Christian",
-            "lastName": "Cool",
-            "age": 28,
-            "hairColor": "blonde",
-            "shoeSize": 44,
-        },
-        {
-            "firstName": "Özlem",
-            "lastName": "Awesome",
-            "age": 26,
-            "hairColor": "black",
-            "shoeSize": 39,
+fetch("./js/team.json")
+    .then(response => response.json())
+    .then(data => console.log(data));
 
-        },
-        {
-            "firstName": "William",
-            "lastName": "Wizard",
-            "age": 17,
-            "hairColor": "brown",
-            "shoeSize": 43,
+// console.log(data[0]["classMembers"][2]['firstName']);
 
-        }
-    ]
-};
+let webdevClass = data;
+
+
+
+// const webdevClass = {
+//     "class": "WU06",
+//     "school": "RTS",
+//     "teacher": "Troels",
+//     "classMembers": [{
+//             "firstName": "Vagn",
+//             "lastName": "Sej",
+//             "age": 70,
+//             "hairColor": "grey",
+//             "shoeSize": 45,
+//         },
+//         {
+//             "firstName": "Christian",
+//             "lastName": "Cool",
+//             "age": 28,
+//             "hairColor": "blonde",
+//             "shoeSize": 44,
+//         },
+//         {
+//             "firstName": "Özlem",
+//             "lastName": "Awesome",
+//             "age": 26,
+//             "hairColor": "black",
+//             "shoeSize": 39,
+
+//         },
+//         {
+//             "firstName": "William",
+//             "lastName": "Wizard",
+//             "age": 17,
+//             "hairColor": "brown",
+//             "shoeSize": 43,
+
+//         }
+//     ]
+// };
 
 // console.log(webdevClass["classMembers"][1]["firstName"]);
 
@@ -74,7 +84,3 @@ for (let i = 0; i < webdevClass["classMembers"].length; i++) {
     // console.log(`${webdevClass["classMembers"][i]["firstName"]} ${webdevClass["classMembers"][i]["lastName"]}`);
 
 };
-
-// fetch("./team.js")
-//     .then(response => response.json())
-//     .then(data => console.log(data));
