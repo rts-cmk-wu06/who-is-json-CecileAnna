@@ -1,36 +1,36 @@
- [{
-     "class": "WU06",
-     "school": "RTS",
-     "teacher": "Troels",
-     "classMembers": [{
-             "firstName": "Vagn",
-             "lastName": "Sej",
-             "age": 70,
-             "hairColor": "grey",
-             "shoeSize": 46
-         },
-         {
-             "firstName": "Christian",
-             "lastName": "Cool",
-             "age": 28,
-             "hairColor": "blonde",
-             "shoeSize": 47
-         },
-         {
-             "firstName": "Özlem",
-             "lastName": "Awesome",
-             "age": 26,
-             "hairColor": "black",
-             "shoeSize": 39
+{
+    "class": "WU06",
+    "school": "RTS",
+    "teacher": "Troels",
+    "classMembers": [{
+            "firstName": "Vagn",
+            "lastName": "Sej",
+            "age": 70,
+            "hairColor": "grey",
+            "shoeSize": 46
+        },
+        {
+            "firstName": "Christian",
+            "lastName": "Cool",
+            "age": 28,
+            "hairColor": "blonde",
+            "shoeSize": 47
+        },
+        {
+            "firstName": "Özlem",
+            "lastName": "Awesome",
+            "age": 26,
+            "hairColor": "black",
+            "shoeSize": 39
 
-         },
-         {
-             "firstName": "William",
-             "lastName": "Wizard",
-             "age": 18,
-             "hairColor": "brown",
-             "shoeSize": 42
+        },
+        {
+            "firstName": "William",
+            "lastName": "Wizard",
+            "age": 18,
+            "hairColor": "brown",
+            "shoeSize": 42
 
-         }
-     ]
- }]
+        }
+    ]
+}
